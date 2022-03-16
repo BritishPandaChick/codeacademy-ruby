@@ -16,6 +16,7 @@ case choice
   when "add"
     puts "What is the title?"
     title = gets.chomp
+
     if movies[title.to_sym].nil?
       puts "How would you rate this movie oon a scale 1-5?"
       rating = gets.chomp
@@ -29,6 +30,7 @@ case choice
   when "update"
     puts "What movie title would you like to update?"
     title = gets.chomp
+
     if movie[title].nil?
       puts "This movie is not rated."
     else
@@ -45,11 +47,13 @@ case choice
 
   when "delete"
     puts "What movie would you like to delete?"
+
     if movies[title].nil?
       puts "Movie is not found."
     else
       movies.delete(title.to_sym)
     end
+    
   else
     puts "Error!"
   end

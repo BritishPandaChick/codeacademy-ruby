@@ -1,5 +1,6 @@
 class Computer
   @@users = {}
+  
   def initalize(username, password)
     @username = username
     @password = password
