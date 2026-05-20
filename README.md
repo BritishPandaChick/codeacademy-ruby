@@ -1,11 +1,12 @@
 # Codecademy Ruby
 All Ruby projects from Codecademy Ruby course.
 
-## Instructions
-Clone or download zip file. Pick the file you want to run by inputing ``ruby file_name.rb`` in your command prompt.
+## Tech Stack
+- Ruby
 
-## Contributing
-This repository is based on starter code from Codecademy. Therefore I will not be accepting any pull requests.
+## Instructions
+1. Clone or download zip file. 
+2. Pick the file you want to run by inputing ``ruby file_name.rb`` in your command line.
 
 ## Acknowledgements
 * Codecademy
